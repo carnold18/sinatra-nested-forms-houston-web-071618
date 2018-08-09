@@ -1,6 +1,7 @@
+
 class Ship
-  	
-  attr_accessor :name, :type, :booty
+
+	attr_accessor :name, :type, :booty
 
 	@@all = []
 
@@ -18,5 +19,5 @@ class Ship
 	def self.clear
 		@@all = []
 	end
-	
+
 end
